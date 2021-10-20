@@ -118,3 +118,8 @@ section{
     margin-top: 1.5em;
     padding: 0 5em;
 }
+.bg{
+    width: 100%;
+    background-color: beige;
+    padding: 5em 0;
+}
