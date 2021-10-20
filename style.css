@@ -37,4 +37,32 @@ header{
 .col-ex, .col-center{
     float:left
 }
- 
+nav li{
+    display: inline-block;
+    margin-right: 1em;
+}
+a{
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+}
+#logo{
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+/* Pulsanti */
+.shape{
+    width: 5em;
+    height: 2.5em;
+    background-color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+.shape:hover, .shape:active, .shape:focus {
+    color: #3161e0;
+    cursor: pointer;
+    text-decoration: underline;
+}
