@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: ‘Whitney’, sans-serif;
+    font-size: 100%;
+}
+body{width: 100%;}
+
+/* Header */
+header{
+    background-image: url(img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 7em;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.col-ex{
+    width: 20%
+
+}
+.col-center{
+    width: 60%;
+}
+.col-ex, .col-center{
+    float:left
+}
+ 
