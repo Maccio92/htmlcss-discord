@@ -27,17 +27,10 @@ header{
     display: table;
     clear: both;
 }
-.col-ex{
-    width: 20%
-
-}
-.col-center{
-    width: 60%;
-}
-.col-ex, .col-center{
-    float:left
-}
-nav li{
+.col-ex{width: 20%}
+.col-center{width: 60%;}
+.col-ex, .col-center{float:left}
+li{
     display: inline-block;
     margin-right: 1em;
 }
@@ -64,7 +57,8 @@ a{
 .light-button:last-child{
     background-color:#8ea1e1;
     color: white;
-    margin-top: 2em;
+    margin: 2em auto;
+    text-align: center;
 }
 .shape:hover, .shape:active, .shape:focus {
     color: #3161e0;
@@ -107,7 +101,7 @@ h2{
 }
 h3{
     font-size: 1.5em;
-margin-top: 2em;
+    margin-top: 2em ;
 }
 .last-section{
     text-align: center;
@@ -116,7 +110,7 @@ margin-top: 2em;
 /* Sezione */
 section{
     width:80%;
-    margin: 10em auto;
+    margin: 10em auto 0;
 }
 .img-col, .text-col{
     float:left;
@@ -144,4 +138,50 @@ section:last-child>p{
     max-width: 100%;
     text-align: center;
 }
+.star{
+    background-image: url(img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
 
+/* Footer */
+footer{
+    background-color: #23272a;
+}
+.footer-col{
+    width: 15%;
+    padding: 5em 0;
+    float: left;
+}
+.footer-col:first-child{
+    width: 40%;
+}
+.footer-title{
+    color: #8ea1e1;
+    font-size: 2em;
+}
+
+/* Bandiera */
+#ita-flag{    
+    padding: 2em 0 0 4em;
+    height: 3em;
+}
+.ita{
+    color: white;
+    display: inline-block;
+    font-size: 1.1em;
+}
+
+/* Liste del footer */
+.footer-col li {
+    color: white;
+    display: block;
+    margin-bottom: 1em;
+}
+.first-item a{
+    color: #8ea1e1;    
+}
+.icon li {display: inline-block}
