@@ -100,10 +100,14 @@ h2{
     padding: 0 2em;
     font-size: 3em;
 }
+.last-section{
+    text-align: center;
+    font-size: 2.5em;
+}
 /* Sezione */
 section{
     width:80%;
-    margin: 6em auto;
+    margin: 10em auto;
 }
 .img-col, .text-col{
     float:left;
@@ -122,4 +126,12 @@ section{
     width: 100%;
     background-color: beige;
     padding: 5em 0;
+}
+section:last-child>p{
+    text-align: center;
+    font-size: 1.1em;
+}
+.last-img{
+    max-width: 100%;
+    text-align: center;
 }
