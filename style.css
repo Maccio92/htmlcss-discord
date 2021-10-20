@@ -61,6 +61,11 @@ a{
     font-size: 0.7em;
     font-weight: 600;
 }
+.light-button:last-child{
+    background-color:#8ea1e1;
+    color: white;
+    margin-top: 2em;
+}
 .shape:hover, .shape:active, .shape:focus {
     color: #3161e0;
     cursor: pointer;
@@ -100,6 +105,10 @@ h2{
     padding: 0 2em;
     font-size: 3em;
 }
+h3{
+    font-size: 1.5em;
+margin-top: 2em;
+}
 .last-section{
     text-align: center;
     font-size: 2.5em;
@@ -135,3 +144,4 @@ section:last-child>p{
     max-width: 100%;
     text-align: center;
 }
+
