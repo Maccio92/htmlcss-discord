@@ -92,3 +92,29 @@ a{
     font-size: 1em;
     padding: 2em;
 }
+h1{
+    color: white;
+    font-size: 3em;  
+}
+h2{
+    padding: 0 2em;
+    font-size: 3em;
+}
+/* Sezione */
+section{
+    width:80%;
+    margin: 6em auto;
+}
+.img-col, .text-col{
+    float:left;
+    width: 50%;
+}
+.img-col>img, .text-col{
+    max-width: 100%;
+}
+.img-col{ text-align: center;}
+.caption{
+    font-size: 1.2em;
+    margin-top: 1.5em;
+    padding: 0 5em;
+}
