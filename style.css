@@ -96,7 +96,7 @@ h1{
     font-size: 3em;  
 }
 h2{
-    padding: 0 2em;
+    padding: 0 auto;
     font-size: 3em;
 }
 h3{
@@ -166,8 +166,8 @@ footer{
 
 /* Bandiera */
 #ita-flag{    
-    padding: 2em 0 0 4em;
-    height: 3em;
+    padding: 0 auto;
+    height: 1em;
 }
 .ita{
     color: white;
@@ -175,7 +175,7 @@ footer{
     font-size: 1.1em;
 }
 
-/* Liste del footer */
+/* Liste del footer" */
 .footer-col li {
     color: white;
     display: block;
@@ -184,4 +184,5 @@ footer{
 .first-item a{
     color: #8ea1e1;    
 }
-.icon li {display: inline-block}
+.icon li {display: inline-block;}
+.icon li img{ width: 2em;}
