@@ -30,6 +30,9 @@ header{
 .col-ex{width: 20%}
 .col-center{width: 60%;}
 .col-ex, .col-center{float:left}
+.margin{
+    margin: 10em auto;
+}
 li{
     display: inline-block;
     margin-right: 1em;
@@ -111,8 +114,9 @@ h3{
 section{
     width:80%;
     margin: 0 auto ;
-    padding: 10em 0;
+    padding: 0;
 }
+
 .img-col, .text-col{
     float:left;
     width: 50%;
@@ -121,6 +125,9 @@ section{
     max-width: 100%;
 }
 .img-col{ text-align: center;}
+.text-col{
+    padding: 2em;
+}
 .caption{
     font-size: 1.2em;
     margin-top: 1.5em;
@@ -216,3 +223,10 @@ footer{
 }
 .icon li {display: inline-block;}
 .icon li img{ width: 2em;}
+.bottom-footer{
+    padding: 2em 0;
+}
+.sign{
+    float: right;
+    width: 6em;
+}
