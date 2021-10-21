@@ -30,9 +30,7 @@ header{
 .col-ex{width: 20%}
 .col-center{width: 60%;}
 .col-ex, .col-center{float:left}
-.margin{
-    margin: 10em auto;
-}
+.margin{margin: 10em auto;}
 li{
     display: inline-block;
     margin-right: 1em;
@@ -121,13 +119,9 @@ section{
     float:left;
     width: 50%;
 }
-.img-col>img, .text-col{
-    max-width: 100%;
-}
-.img-col{ text-align: center;}
-.text-col{
-    padding: 2em;
-}
+.img-col>img, .text-col{max-width: 100%;}
+.img-col{text-align: center;}
+.text-col{padding: 2em;}
 .caption{
     font-size: 1.2em;
     margin-top: 1.5em;
@@ -218,14 +212,10 @@ footer{
     display: block;
     margin-bottom: 1em;
 }
-.first-item a{
-    color: #8ea1e1;    
-}
+.first-item a{color: #8ea1e1;}
 .icon li {display: inline-block;}
 .icon li img{ width: 2em;}
-.bottom-footer{
-    padding: 2em 0;
-}
+.bottom-footer{padding: 2em 0;}
 .sign{
     float: right;
     width: 6em;
